@@ -19,7 +19,7 @@ const About = () => {
         <div className="md:col-span-7 space-y-4">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Who Am I</h2>
           <p className="text-gray-700">
-            My name is <span className="font-medium">Atikur Rahman</span>, and I am a dedicated MERN Stack Developer based in Dhaka, Bangladesh.
+            My name is <span className="font-medium">Md.Shakib Hossain</span>, and I am a dedicated Front-End Developer based in Dhaka, Bangladesh.
           </p>
           <p className="text-gray-700">
             I have a strong foundation in front-end technologies such as HTML5, CSS3, JavaScript, and ReactJS. I excel in creating visually appealing and highly functional web applications, utilizing UI libraries like TailwindCSS.
@@ -40,7 +40,7 @@ const About = () => {
           {/* Social Icons */}
           <div className="flex space-x-4 mt-4 text-gray-800 justify-center md:justify-start">
             <a
-              href="https://github.com/atikurrahman33"
+              href="https://github.com/mdshakib106"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl hover:text-gray-600 transition"
@@ -48,7 +48,7 @@ const About = () => {
               <FontAwesomeIcon icon={faGithub} />
             </a>
             <a
-              href="https://www.linkedin.com/in/atikur-rahman03/"
+              href="https://www.linkedin.com/in/md-shakib-hossain245"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl hover:text-blue-700 transition"
@@ -56,7 +56,7 @@ const About = () => {
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a
-              href="https://www.facebook.com/atikurrahman.foysal.3"
+              href="https://www.facebook.com/md.shakib.hossain.515008"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl hover:text-blue-600 transition"
@@ -64,7 +64,7 @@ const About = () => {
               <FontAwesomeIcon icon={faFacebook} />
             </a>
             <a
-              href="https://x.com/AtikurRahm59719"
+              href="https://x.com/MdShaki245"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl hover:text-blue-400 transition"

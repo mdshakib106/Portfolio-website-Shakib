@@ -12,14 +12,14 @@ const Footer = () => {
           
           {/* Name Tag */}
           <p className="text-3xl font-bold text-blue-500 text-center sm:text-left">
-            &lt;Atikur/&gt;
+            &lt;Shakib/&gt;
           </p>
 
           {/* Copyright */}
           <p className="text-sm text-gray-600 flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-1">
             © {new Date().getFullYear()} All rights reserved. Designed with
             <FaHeart className="text-red-500 mx-1 inline" /> by
-            <span className="font-semibold text-blue-400 ml-1">Atikur Rahman</span>
+            <span className="font-semibold text-blue-400 ml-1">Md.Shakib Hossain</span>
           </p>
 
           {/* Back to Top Button */}

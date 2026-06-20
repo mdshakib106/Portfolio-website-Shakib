@@ -8,7 +8,7 @@ const Navbar = () => {
       {/* Left side: Logo */}
       <div className="navbar-start pl-1">
         <Link to="/" className="text-3xl font-bold text-blue-500">
-          Atikur Rahman
+          Md. Shakib Hossain
         </Link>
       </div>
 
@@ -39,7 +39,7 @@ const Navbar = () => {
         {/* Social icons */}
         <div className="flex items-center space-x-3 ml-4 lg:pr-4">
           <a
-            href="https://github.com/atikurrahman33"
+            href="https://github.com/mdshakib106"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 text-xl"
@@ -47,7 +47,8 @@ const Navbar = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/atikur-rahman03/"
+            href="https://www.linkedin.com/in/md-shakib-hossain245"
+            
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 text-xl"

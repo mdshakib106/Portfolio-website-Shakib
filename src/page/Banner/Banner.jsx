@@ -41,7 +41,7 @@ const Banner = () => {
           >
             Are you looking for a{" "}
             <span className="text-blue-500 block sm:inline-block mt-2 sm:mt-0">
-              MERN Stack Developer?
+              Software Engineer specializing in Frontend Developer?
             </span>
           </motion.h1>
           <p className="text-gray-700 text-base sm:text-lg md:text-xl lg:text-lg">
