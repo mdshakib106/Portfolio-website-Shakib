@@ -8,16 +8,16 @@ const Resume = () => {
         {/* Header */}
         <header className="border-b pb-4 mb-6 flex justify-between">
           <div>
-            <h1 className="text-3xl font-bold text-gray-900">Atikur Rahman</h1>
+            <h1 className="text-3xl font-bold text-gray-900">Md. Shakib Hossain</h1>
             <p className="text-lg">Frontend Developer</p>
             <p>Dhaka, Bangladesh</p>
           </div>
 
           <div className="mt-2 text-sm text-gray-600 font-medium">
-            <p>foysalatik33@gmail.com</p>
-            <p>(+88) 01822988250</p>
+            <p>mdshakib24519@gmail.com</p>
+            <p>(+88) 01645239918</p>
             <p className="mt-1">
-              <a href="https://github.com/atikurrahman33" className="text-blue-600 hover:underline mr-4">GitHub</a>
+              <a href="https://github.com/mdshakib106" className="text-blue-600 hover:underline mr-4">GitHub</a>
               <a href="https://atiksportfolio.vercel.app/" className="text-blue-600 hover:underline">Portfolio</a>
             </p>
           </div>
@@ -82,120 +82,170 @@ const Resume = () => {
             </ul>
           </div>
 
-          {/* Job 2 */}
-          <div className="mb-4">
-            <h3 className="font-semibold text-gray-800">Information Secretary, IEEE GUB Student Branch</h3>
-            <p className="text-gray-600 text-sm">May 2025 – Present</p>
-            <ul className="list-disc ml-5 text-sm mt-2 text-gray-700">
-              <li>Managed official communication, announcements, and documentation for the student branch.</li>
-              <li>Coordinated event-related updates and supported smooth execution of technical and social programs.</li>
-            </ul>
-          </div>
-
-          {/* Job 3 */}
-          <div className="mb-4">
-            <h3 className="font-semibold text-gray-800">Volunteer, STI 2025 (Science, Technology & Innovation Summit)</h3>
-            <ul className="list-disc ml-5 text-sm mt-2 text-gray-700">
-              <li>Assisted multiple committees including Food, Publicity, and Transport, ensuring efficient event coordination.</li>
-              <li>Helped manage guests, logistics, and on-site tasks to maintain smooth event operations.</li>
-            </ul>
-          </div>
+  
         </section>
 
-        {/* Projects */}
-        <section className="mb-6">
-          <h2 className="text-xl font-semibold border-b pb-2 mb-3">Projects</h2>
-          <div className="space-y-6 text-sm">
+    {/* Projects */}
+<section className="mb-6">
+  <h2 className="text-xl font-semibold border-b pb-2 mb-3">Projects</h2>
 
-            {/* IEEE Website */}
-            <div>
-              <h3 className="font-semibold text-gray-800">IEEE Website</h3>
-              <p>
-                I am currently contributing to the IEEE Website project – a Next.js and Tailwind CSS-based platform for 
-                managing and showcasing IEEE events and activities.
-              </p>
-              <div className="flex justify-between mt-2">
-                <ul className="list-disc list-inside ml-4 text-gray-600">
-                  <li>Modern UI with Next.js & Tailwind CSS</li>
-                  <li>Event management with details</li>
-                  <li>Dynamic content with context-based state</li>
-                </ul>
-                <div className="flex gap-2 font-semibold">
-                  <a href="https://ieeegub.vercel.app/" className="text-blue-600 hover:underline">Live</a>
-                </div>
-              </div>
-            </div>
+  <div className="space-y-6 text-sm">
 
-            {/* Student and Class Management */}
-            <div>
-              <h3 className="font-semibold text-gray-800">Student and Class Management</h3>
-              <p>
-                A platform to manage students, classes, and course enrollments with secure authentication and role-based dashboards.
-              </p>
-              <div className="flex justify-between mt-2">
-                <ul className="list-disc list-inside ml-4 text-gray-600">
-                  <li>Secure login/signup with Firebase</li>
-                  <li>Teacher role (Admin Approval)</li>
-                  <li>Course enrollment & payments</li>
-                  <li>Role-based dashboards</li>
-                </ul>
-                <div className="flex gap-2 font-semibold">
-                  <a href="https://github.com/atikurrahman33/Student-and-Class-Management-client" className="text-blue-600 hover:underline">Client</a>
-                  <span>-</span>
-                  <a href="https://github.com/atikurrahman33/Student-and-Class-Management-server" className="text-blue-600 hover:underline">Server</a>
-                  <span>-</span>
-                  <a href="https://edumentor12.netlify.app/" className="text-blue-600 hover:underline">Live</a>
-                </div>
-              </div>
-            </div>
+    {/* Event Management Platform */}
+    <div>
+      <h3 className="font-semibold text-gray-800">
+        Event Management Platform
+      </h3>
 
-            {/* Community Food Sharing Platform */}
-            <div>
-              <h3 className="font-semibold text-gray-800">Community Food Sharing Platform</h3>
-              <p>
-                A web platform to facilitate food donation, tracking, and pickup, connecting donors with those in need.
-              </p>
-              <div className="flex justify-between mt-2">
-                <ul className="list-disc list-inside ml-4 text-gray-600">
-                  <li>Food donation management</li>
-                  <li>Track donations & requests</li>
-                  <li>Request handling & food pickup system</li>
-                </ul>
-                <div className="flex gap-2 font-semibold">
-                  <a href="https://github.com/atikurrahman33/Food-Sharing-Client" className="text-blue-600 hover:underline">Client</a>
-                  <span>-</span>
-                  <a href="https://github.com/atikurrahman33/Food-Sharing-server" className="text-blue-600 hover:underline">Server</a>
-                  <span>-</span>
-                  <a href="https://foodsharing.netlify.app/" className="text-blue-600 hover:underline">Live</a>
-                </div>
-              </div>
-            </div>
+      <p>
+        A modern event management platform designed to help users discover,
+        explore, and manage events in real time with secure authentication
+        and protected routes.
+      </p>
 
-            {/* Brand Shop */}
-            <div>
-              <h3 className="font-semibold text-gray-800">Brand Shop</h3>
-              <p>
-                An e-commerce platform for browsing brands, managing personal car listings, and user authentication.
-              </p>
-              <div className="flex justify-between mt-2">
-                <ul className="list-disc list-inside ml-4 text-gray-600">
-                  <li>User authentication (Google/email)</li>
-                  <li>Car management (add, update, delete own cars)</li>
-                  <li>Brand browsing for all users</li>
-                </ul>
-                <div className="flex gap-2 font-semibold">
-                  <a href="https://github.com/atikurrahman33/Simple-Brand-Client" className="text-blue-600 hover:underline">Client</a>
-                  <span>-</span>
-                  <a href="https://github.com/atikurrahman33/Simple-Brand-Server" className="text-blue-600 hover:underline">Server</a>
-                  <span>-</span>
-                  <a href="https://65380c5660e984007a96edf3--quiet-boba-078908.netlify.app/" className="text-blue-600 hover:underline">Live</a>
-                </div>
-              </div>
-            </div>
+      <div className="flex justify-between mt-2">
+        <ul className="list-disc list-inside ml-4 text-gray-600">
+          <li>User Authentication with Firebase</li>
+          <li>Private Routes for protected pages</li>
+          <li>Real-Time Event Information</li>
+          <li>Toast Notifications</li>
+          <li>Responsive Design</li>
+        </ul>
 
-          </div>
-        </section>
+        <div className="flex gap-2 font-semibold">
+          <a
+            href="https://github.com/mdshakib106/event-management-system.git"
+            className="text-blue-600 hover:underline"
+          >
+            Client
+          </a>
+          <span>-</span>
+          <a
+            href="https://event-management-system-shakib.netlify.app/"
+            className="text-blue-600 hover:underline"
+          >
+            Live
+          </a>
+        </div>
+      </div>
+    </div>
 
+    {/* Emergency Service Directory */}
+    <div>
+      <h3 className="font-semibold text-gray-800">
+        Emergency Service Directory
+      </h3>
+
+      <p>
+        A responsive web application that provides quick access to essential
+        emergency hotline services across Bangladesh.
+      </p>
+
+      <div className="flex justify-between mt-2">
+        <ul className="list-disc list-inside ml-4 text-gray-600">
+          <li>One-click Call & Copy functionality</li>
+          <li>Emergency service cards</li>
+          <li>Call history tracking</li>
+          <li>Favorite services management</li>
+          <li>Responsive Design</li>
+        </ul>
+
+        <div className="flex gap-2 font-semibold">
+          <a
+            href="https://github.com/mdshakib106/B12-A5-Emergency-Hotline.git"
+            className="text-blue-600 hover:underline"
+          >
+            Client
+          </a>
+          <span>-</span>
+          <a
+            href="https://mdshakib106.github.io/B12-A5-Emergency-Hotline/"
+            className="text-blue-600 hover:underline"
+          >
+            Live
+          </a>
+        </div>
+      </div>
+    </div>
+
+    {/* Flower Shop */}
+    <div>
+      <h3 className="font-semibold text-gray-800">
+        Flower Shop
+      </h3>
+
+      <p>
+        A responsive flower shop website focused on modern UI design,
+        seamless navigation, and a smooth shopping experience.
+      </p>
+
+      <div className="flex justify-between mt-2">
+        <ul className="list-disc list-inside ml-4 text-gray-600">
+          <li>Fully responsive design</li>
+          <li>Modern product showcase UI</li>
+          <li>Easy navigation system</li>
+          <li>Interactive forms</li>
+          <li>Organized product sections</li>
+        </ul>
+
+        <div className="flex gap-2 font-semibold">
+          <a
+            href="https://github.com/mdshakib106/B12A02-Responsive-Flowers.git"
+            className="text-blue-600 hover:underline"
+          >
+            Client
+          </a>
+          <span>-</span>
+          <a
+            href="https://mdshakib106.github.io/B12A02-Responsive-Flowers/"
+            className="text-blue-600 hover:underline"
+          >
+            Live
+          </a>
+        </div>
+      </div>
+    </div>
+
+    {/* Influencer Products */}
+    <div>
+      <h3 className="font-semibold text-gray-800">
+        Influencer Products
+      </h3>
+
+      <p>
+        A modern e-commerce landing page designed for influencers and content
+        creators to showcase popular products.
+      </p>
+
+      <div className="flex justify-between mt-2">
+        <ul className="list-disc list-inside ml-4 text-gray-600">
+          <li>Responsive Design</li>
+          <li>Modern Hero Section</li>
+          <li>Product Collection Showcase</li>
+          <li>Featured Products Section</li>
+          <li>Clean Navigation Experience</li>
+        </ul>
+
+        <div className="flex gap-2 font-semibold">
+          <a
+            href="https://github.com/mdshakib106/influencer-gear.git"
+            className="text-blue-600 hover:underline"
+          >
+            Client
+          </a>
+          <span>-</span>
+          <a
+            href="https://mdshakib106.github.io/influencer-gear/"
+            className="text-blue-600 hover:underline"
+          >
+            Live
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
         {/* Languages */}
         <section>
           <h2 className="text-xl font-semibold border-b pb-2 mb-3">Languages</h2>
