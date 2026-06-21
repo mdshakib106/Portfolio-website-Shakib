@@ -46,6 +46,7 @@ const Project = () => {
                   alt={project.projectName}
                   className="w-full h-full object-cover rounded-lg"
                 />
+               
               </figure>
 
               {/* Links */}
