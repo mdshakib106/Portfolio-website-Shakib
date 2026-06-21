@@ -1,102 +1,145 @@
 [
   {
     "id": 1,
-    "projectName": "Community Food Sharing Platform",
-    "projectDetails": "A community-driven platform that connects people who have surplus food with those in need. The system allows donors to share food securely, track requests, and manage pickups. With Firebase authentication, real-time request handling, and a donation tracking dashboard, the platform promotes sustainability and reduces food waste.",
-    "image": "/FoodShare.png",
-    "clintlink": "https://github.com/atikurrahman33/Food-Sharing-Client",
-    "serverlink": "https://github.com/atikurrahman33/Food-Sharing-server",
-    "livelink": "https://foodsharing.netlify.app/",
+    "projectName": "Event Management Platform",
+   
+     "projectDetails": "A modern event management platform designed to help users discover, explore, and manage events in real time. The application features secure user authentication, protected event details pages, and an intuitive interface for browsing upcoming events. With responsive design, instant notifications, and private route protection, the platform provides a seamless and engaging user experience.",
+    "image": "/public/Event -Management.png",
+    "clintlink": "https://github.com/mdshakib106/event-management-system.git",
+    "serverlink": "https://github.com/mdshakib106/event-management-system.git",
+    "livelink": "https://event-management-system-shakib.netlify.app/",
     "features": [
-      "User Authentication (Firebase): Secure and efficient login/registration system.",
-      "Food Donation Management: Logged-in users can add, update, or delete food donations.",
-      "Tracking & Requests: Users can manage donations in My Food and track requests in My Request.",
-      "Food Pickup: Donated food can be collected at the location specified in the food card.",
-      "Request Handling: Donors can view how many people requested their food and accept requests accordingly."
+    
+    "User Authentication: Secure registration and login system for accessing platform features.",
+    "Private Routes: Protected event details pages accessible only to authenticated users.",
+    "Real-Time Event Information: Users can browse and view up-to-date event details.",
+    "Toast Notifications: Instant feedback for successful login, registration, and user actions.",
+    "Responsive Design: Optimized experience across desktop, tablet, and mobile devices."
+
     ],
-    "technologies": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Firebase"],
-    "tags": ["E-commerce", "Food Sharing", "Sustainability", "Donation"]
+    "technologies": [    "React",
+    "React Router",
+    "Firebase Authentication",
+    "Tailwind CSS",
+    "JavaScript",
+    "Vite"],
+    "tags": [    "Event Management",
+    "Authentication",
+    "Private Routes",
+    "Responsive Design"]
   },
   {
     "id": 2,
-    "projectName": "Luxury & Classic Car Brand Shop",
-    "projectDetails": "A marketplace-style web application for browsing, listing, and managing cars by brand. Users can register, log in, and add their own car listings, while visitors can explore vehicles without logging in. The platform includes role-based access for secure management and provides an easy way for buyers and sellers to connect.",
-    "image": "/BrandShop.png",
-    "clintlink": "https://github.com/atikurrahman33/Simple-Brand-Client",
-    "serverlink": "https://github.com/atikurrahman33/Simple-Brand-Server",
-    "livelink": "https://65380c5660e984007a96edf3--quiet-boba-078908.netlify.app/",
+    "projectName": "Emergency Service Directory",
+    "projectDetails":"A responsive web application designed to provide quick and easy access to essential emergency contact services across Bangladesh. The platform helps users find, copy, and call important hotline numbers during urgent situations. With a clean user interface, call history tracking, favorite services management, and mobile-friendly design, the application ensures a smooth and efficient user experience when every second matters.",
+    "image": "/public/Emergency-Hotline.png",
+    "clintlink": "https://github.com/mdshakib106/B12-A5-Emergency-Hotline.git",
+    "serverlink": "https://github.com/mdshakib106/B12-A5-Emergency-Hotline.git",
+    "livelink": "https://mdshakib106.github.io/B12-A5-Emergency-Hotline/",
     "features": [
-      "User Accounts: Sign up and log in using email-password or Google authentication.",
-      "Car Management: Logged-in users can add cars under categories, and view, update, or delete only their own cars.",
-      "Brand Section: All visitors can browse cars by brand, but detailed car information is restricted to logged-in users."
+      "Responsive design optimized for mobile, tablet, and desktop devices.",
+"One-click Call and Copy functionality for emergency hotline numbers.",
+"Interactive emergency service cards with hover effects and detailed information.",
+"Call history tracking with timestamp display for recent activities.",
+"Favorite option to save frequently used emergency services for quick access."
     ],
-    "technologies": ["React", "Firebase", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-    "tags": ["Marketplace", "Car", "Brand Shop", "Vehicles"]
+    "technologies": ["HTML5",
+"CSS3",
+"JavaScript",
+"Tailwind CSS"],
+    "tags": ["Emergency Services",
+"Hotline Directory",
+"Responsive Design",
+"Public Service",
+"Bangladesh"]
   },
   {
     "id": 3,
-    "projectName": "Student and Class Management",
-    "projectDetails": "A role-based learning management system (LMS) that allows admins, teachers, and students to collaborate in one place. Admins manage users and approve teachers, teachers can create and publish courses, and students can enroll in classes with secure payment integration. The system also includes dashboards for each role, offering a seamless educational experience.",
-    "image": "/studentManagement.png",
-    "clintlink": "https://github.com/atikurrahman33/Student-and-Class-Management-client",
-    "serverlink": "https://github.com/atikurrahman33/Student-and-Class-Management-server",
-    "livelink": "https://edumentor12.netlify.app/",
-    "features": [
-      "User Authentication (Firebase): Secure registration and login for all users.",
-      "Teacher Role (Admin Approval): Approved teachers can add, update, and delete courses, visible only after admin approval.",
-      "Course Enrollment & Payment: Students can enroll in courses by paying the listed price.",
-      "Role-Based Dashboards: Separate dashboards for Admin, Teacher, and Student with role-specific features."
-    ],
-    "technologies": ["React", "Node.js", "MongoDB", "Express", "Firebase", "Stripe"],
-    "tags": ["Education", "Management", "LMS", "Students"]
-  },
-  {
-    "id": 4,
-    "projectName": "Gamer Zone",
-    "projectDetails": "An interactive gaming portal designed for gamers to explore trending games, compete in leaderboards, and showcase achievements. The platform features a dynamic game library, user profiles, and community engagement options, making it a hub for gaming enthusiasts to connect and share their experiences.",
-    "image": "/game.png",
-    "clintlink": "https://github.com/atikurrahman33/KSA-2",
-    
-    "livelink": "https://ksa-2.vercel.app/",
-    "features": [
-      "Game library showcase with detailed game pages.",
-      "Leaderboard system for player ranking and scores.",
-      "User profiles with achievements and saved games."
-    ],
-    "technologies": ["Next.js", "Tailwind CSS", "Firebase"],
-    "tags": ["Gaming", "Platform", "Entertainment", "Community"]
-  },
-  {
-    "id": 5,
-    "projectName": "IEEE Website",
-    "projectDetails": "A dedicated platform for the IEEE Student Branch to showcase events, activities, and announcements. Built with Next.js and Tailwind CSS, it provides modern UI, event browsing, and context-based state management. The project is actively maintained and includes planned future upgrades like role-based dashboards for admins, moderators, and members.",
-    "image": "/ieeegub.png",
-    "clintlink": "https://github.com/atikurrahman33/IEEE-GUB-CLIENT",
-    
-    "livelink": "https://ieeegub.vercel.app/",
-    "features": [
-      "Modern UI: Built with Next.js and Tailwind CSS for a clean, responsive design.",
-      "Event Management: Browse upcoming events with details such as date, time, and registration link.",
-      "Dynamic Content: Event listings and details are managed via context-based state.",
-      "Role-Based Sections (Future Scope): Planned dashboards for Admin, Moderator, and Members."
-    ],
-    "technologies": ["Next.js", "MongoDB", "Express", "Tailwind CSS"],
-    "tags": ["Blog", "Education", "IEEE", "Events"]
-  },
-  {
-    "id": 6,
     "projectName": "Flower Shop",
-    "projectDetails": "An online flower shop where customers can browse a wide variety of flowers, view product details, and purchase through a secure checkout process. The platform includes order tracking, user-friendly UI, and an admin dashboard for product management, making it a complete e-commerce solution for florists.",
-    "image": "/flower.png",
-    "clintlink": "https://github.com/atikurrahman33/assignment01",
-    
-    "livelink": "https://assignment01-jade.vercel.app/",
+    "projectDetails": "A responsive flower shop website designed to provide an elegant and user-friendly online shopping experience. The project focuses on modern UI design, seamless navigation, and device compatibility across mobile, tablet, and desktop screens. Users can browse flower collections, explore featured products, and interact with intuitive forms, creating a smooth and engaging experience.",
+    "image": "/public/flowershop.png",
+    "clintlink": "https://github.com/mdshakib106/B12A02-Responsive-Flowers.git",
+    "serverlink": "https://github.com/mdshakib106/B12A02-Responsive-Flowers.git",
+    "livelink": "https://mdshakib106.github.io/B12A02-Responsive-Flowers/",
     "features": [
-      "Product catalog with categorized flowers.",
-      "Cart & checkout with payment integration.",
-      "Order tracking and customer management."
+      "Fully responsive design optimized for mobile, tablet, and desktop devices.",
+"Modern and visually appealing user interface for showcasing flower products.",
+"Easy-to-use navigation system for smooth browsing experience.",
+"Interactive forms for user engagement and inquiries.",
+"Clean layout with organized product sections and promotional content."
     ],
-    "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe", "Tailwind CSS"],
-    "tags": ["E-commerce", "Flower Shop", "Online Store", "Retail"]
-  }
+    "technologies": ["HTML5",
+"CSS3",
+"JavaScript",
+"Responsive Design"],
+    "tags": ["Flower Shop",
+"E-commerce",
+"Responsive Design",
+"Frontend Development",
+"UI/UX"]
+  },
+{
+"id": 4,
+"projectName": "Influencer Products",
+"projectDetails": "A modern and responsive e-commerce landing page designed for influencers and content creators to showcase popular products. The website features an attractive hero section, product collection showcase, featured product highlights, and a user-friendly interface optimized for all devices. The project focuses on responsive design, clean layouts, and an engaging shopping experience.",
+ "image": "/public/influencer-gears.png",
+"clintlink": "https://github.com/mdshakib106/influencer-gear.git",
+"serverlink": "https://github.com/mdshakib106/influencer-gear.git",
+"livelink": "https://mdshakib106.github.io/influencer-gear/",
+"features": [
+"Fully responsive design for mobile, tablet, and desktop devices.",
+"Modern hero section with call-to-action buttons and promotional content.",
+"Popular product collection displayed in an organized card-based layout.",
+"Featured products section to highlight premium and trending items.",
+"Clean navigation menu with smooth user experience and accessibility."
+],
+"technologies": [
+"HTML5",
+"CSS3",
+"JavaScript",
+"Responsive Design",
+"Flexbox",
+"CSS Grid"
+],
+"tags": [
+"E-commerce",
+"Influencer Marketing",
+"Product Showcase",
+"Responsive Design",
+"Frontend Development"
+]
+},
+
+ {
+"id": 5,
+"projectName": "G3 Architects",
+"projectDetails": "A modern and fully responsive architecture company website designed to showcase architectural services, team expertise, and project achievements. The website provides a clean and professional user interface with responsive layouts, interactive sections, and seamless navigation. Built with a mobile-first approach, the platform ensures an optimal viewing experience across smartphones, tablets, and desktop devices.",
+"image": "/public/A3 Architect.png",
+"clintlink": "https://github.com/mdshakib106/g3-architects-responsibe-website.git",
+"serverlink": "https://github.com/mdshakib106/g3-architects-responsibe-website.git",
+"livelink": "https://mdshakib106.github.io/g3-architects-responsibe-website/",
+"features": [
+"Fully responsive design optimized for mobile, tablet, and desktop screens.",
+"Modern navigation menu for smooth and intuitive user experience.",
+"Responsive grid layouts for displaying team members, projects, and services.",
+"Professional architecture-focused user interface with clean design principles.",
+"Optimized content sections showcasing company achievements, features, and project statistics."
+],
+"technologies": [
+"HTML5",
+"CSS3",
+"JavaScript",
+"Responsive Design",
+"Flexbox",
+"CSS Grid"
+],
+"tags": [
+"Architecture",
+"Responsive Design",
+"Frontend Development",
+"UI/UX Design",
+"Business Website"
+]
+}
+ 
 ]
