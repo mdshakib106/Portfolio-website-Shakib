@@ -1,4 +1,4 @@
-import profileImg from "../../../public/Images/Sakib_hossain.png";
+import profileImg from "../../../public/Images/Shakib_Hossain.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import BackgroundBlobs from "../Banner/BackgroundBlobs";

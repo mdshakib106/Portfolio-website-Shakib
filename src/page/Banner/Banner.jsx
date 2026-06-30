@@ -16,12 +16,12 @@ const tools = [
 const Banner = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const resumeUrl =
-    "/Document/Shakib_Hossain.pdf";
+    "/Document/Md.Shakib_Hossain_CV_.pdf";
 
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = "Shakib_Hossain.pdf";
+    link.download = "Md.Shakib_Hossain_CV_.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
